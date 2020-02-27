@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+.brand-text {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 3vh;
+}
+
+.full-spacer {
+    flex: 1 1 auto;
+}
