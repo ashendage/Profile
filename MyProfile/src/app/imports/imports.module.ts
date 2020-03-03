@@ -31,9 +31,10 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatTableModule} from '@angular/material/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
-  imports: [MatButtonModule,MatTooltipModule,MatDialogModule,MatDatepickerModule,MatSnackBarModule, MatInputModule , MatPaginatorModule,MatCheckboxModule,MatMenuModule,MatToolbarModule,MatSelectModule,MatCardModule,MatTableModule,MatAutocompleteModule, MatProgressSpinnerModule],
-  exports: [MatButtonModule,MatTooltipModule,MatDialogModule,MatDatepickerModule,MatSnackBarModule, MatInputModule , MatPaginatorModule, MatCheckboxModule,MatMenuModule,MatToolbarModule,MatSelectModule,MatCardModule,MatTableModule,MatAutocompleteModule, MatProgressSpinnerModule],
+  imports: [MatButtonModule,MatTooltipModule,MatDialogModule,MatDatepickerModule,MatSnackBarModule, MatInputModule , MatPaginatorModule,MatCheckboxModule,MatMenuModule,MatToolbarModule,MatSelectModule,MatCardModule,MatTableModule,MatAutocompleteModule, MatProgressSpinnerModule, MatIconModule, FlexLayoutModule],
+  exports: [MatButtonModule,MatTooltipModule,MatDialogModule,MatDatepickerModule,MatSnackBarModule, MatInputModule , MatPaginatorModule, MatCheckboxModule,MatMenuModule,MatToolbarModule,MatSelectModule,MatCardModule,MatTableModule,MatAutocompleteModule, MatProgressSpinnerModule, MatIconModule, FlexLayoutModule],
 })
 export class ImportsModule{ }

@@ -1,10 +1,28 @@
+<div id="particles-js" class=""></div>
 <div class="container">
 
-    <mat-toolbar color="primary">
-        <mat-toolbar-row>
-            <span class="brand-text">Akash Shendage</span>
+    <mat-toolbar>
+        <mat-toolbar-row fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center center">
+            <div fxLayout="row" fxLayoutGap="2px" fxLayoutAlign="center center">
+                <button mat-button>
+                  <img class="profile-image img-header" src="./../assets/profile_image.jpg" alt="AkashShendageProfileImage">
+                  <span class="brand-text">Akash Shendage</span>
+              </button>
+            </div>
+
             <span class="full-spacer"></span>
-            <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
+            <button mat-button>
+              <a href=""><span class="brand-text">Projects</span></a>
+              </button>
+            <button mat-button><span class="brand-text">
+              <a href="https://github.com/akash182" target="_blank">Git Repo</a></span></button>
+            <button mat-button>
+              <a href=""><span class="brand-text">About Me</span></a>
+            </button>
         </mat-toolbar-row>
     </mat-toolbar>
+    <div class="center-content" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center center">
+        <div>
+        </div>
+    </div>
 </div>
