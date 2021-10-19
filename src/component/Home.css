@@ -1,0 +1,42 @@
+.home-page {
+  /*background-image: url("./home-page.jpg");*/
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.home-page-content {
+  text-align: center;
+  color: #fff;
+  margin: 0px;
+  padding: 10px 0px;
+}
+.my-name {
+  font-family: Architects Daughter;
+  font-size: 35px;
+}
+.typewriter {
+  font-family: Courier, monospace;
+  display: inline-block;
+}
+.typewriter-text {
+  display: inline-block;
+  font-family: Courier, monospace;
+}
+.circletag {
+  margin-top: 10vw;
+  margin-bottom: 1vw;
+}
+
+.circletag img {
+  border-radius: 40px;
+}
+.circletag img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  box-shadow: 0 0 6px 3px #fff, /* inner white */ 0 0 10px 6px #12ad2b,
+    /* middle magenta */ 0 0 14px 9px #0ff; /* outer cyan */
+}

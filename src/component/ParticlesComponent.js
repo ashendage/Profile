@@ -1,7 +1,12 @@
 import Particles from "react-tsparticles";
-
-const ParticlesComponent = () => {
-
+const rtoC = {
+  "home": "#00ced1",
+  "about": "#7fff00",
+  "portfolio": "#ffffff",
+  "contact": "#00ffff"
+}
+const ParticlesComponent = ({ routeselected }) => {
+  const color = rtoC[routeselected];
   return (
     <Particles
       id="tsparticles"
@@ -44,10 +49,10 @@ const ParticlesComponent = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: color,
           },
           links: {
-            color: "#ffffff",
+            color: color,
             distance: 150,
             enable: true,
             opacity: 0.5,

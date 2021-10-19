@@ -20,6 +20,7 @@ function App() {
   return (<Router>
     <>
       <NavBar />
+
       <div className="container">
         {routes.map(({ path, Component }) => (
           <Route key={path} exact path={path}>
@@ -32,6 +33,7 @@ function App() {
                 unmountOnExit
               >
                 <div className="page">
+
                   <Component />
                 </div>
 
